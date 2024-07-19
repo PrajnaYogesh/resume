@@ -160,7 +160,33 @@ li {
   color: rgb(245, 240, 233);
   font-size: 0.8em;
   height: 15px;
+ 
 }
+#html{
+  width:80%;
+}
+
+#react{
+  width:85%;
+}
+
+#node{
+  width:70%;
+}
+
+#mongo{
+  width:65%;
+}
+
+#java{
+  width:95%;
+}
+
+#sql{
+  width:75%;
+}
+
+
 
 p {
   font-size: 1em;
