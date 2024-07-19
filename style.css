@@ -16,7 +16,7 @@
   /* border: 1px solid red; */
   height: 160px;
   display: flex;
-  background-color: rgb(94, 91, 91);
+  background-color: rgb(45, 42, 65);
   color: rgb(245, 240, 233);
 }
 
@@ -152,13 +152,13 @@ li {
 }
 
 .progress-bar {
-  background-color: rgb(94, 91, 91) !important;
+  background-color: rgb(45, 42, 65) !important;
   border-radius: 10px;
   text-align: center;
-  padding-top: 1px;
+  padding: 1px;
   color: rgb(245, 240, 233);
   font-size: 0.8em;
-  height: 14px;
+  height: 15px;
 }
 
 p {
