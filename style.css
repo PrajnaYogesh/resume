@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  border: 1px solid black;
+  width: 70vw;
+  margin: auto;
+}
+
+/*nav bar */
+
+.section1 {
+  /* border: 1px solid red; */
+  height: 160px;
+  display: flex;
+  background-color: rgb(94, 91, 91);
+  color: rgb(245, 240, 233);
+}
+
+.leftInfo {
+  /* border: 1px solid rgb(27, 235, 41); */
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myPic {
+  width: 80%;
+  height: 80%;
+}
+
+.rightInfo {
+  width: 100%;
+  /* border: 2px solid rgb(26, 52, 123); */
+  width: calc(70vw - 200px);
+  margin: 10px;
+  display: flex;
+}
+
+.personalInfo {
+  width: 100%;
+  width: 45%;
+  /* border: 2px solid rgb(166, 181, 222); */
+  height: 100%;
+  padding: 15px;
+}
+
+.personalInfo-style {
+  padding: 4px;
+  text-wrap: wrap;
+}
+
+.personalInfo-style1 {
+  padding-left: 5px;
+  padding-top: 2px;
+  text-wrap: wrap;
+}
+
+.personalInfo-style2 {
+  padding-right: 8px;
+  color: rgb(245, 240, 233);
+  padding-left: 5px;
+  margin-right: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 25%;
+}
+
+.links {
+  margin: 23px;
+}
+
+.linksInfo {
+  padding: 5px;
+  text-wrap: wrap;
+}
+
+.link-style {
+  color: rgb(245, 240, 233);
+}
+
+.bodySection {
+  /* border: 1px solid green; */
+  margin: 10px;
+}
+
+.desc-style {
+  padding: 5px 0px;
+  font-size: 1em;
+}
+
+.workAndTech {
+  /* border: 1px solid rgb(38, 41, 38); */
+  margin: 10px;
+  display: flex;
+}
+
+.workExperience {
+  /* border: 1px solid rgb(26, 231, 26); */
+  width: 70%;
+  margin-right: 25px;
+}
+
+.companies {
+  width: 100%;
+  /* border: 1px solid rgb(187, 72, 152); */
+  padding: 0px 10px;
+  /* border: 2px solid green; */
+}
+
+.tcs {
+  /* border: 2px solid blue; */
+  margin-bottom: 15px;
+}
+
+.companyName {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  font-size: 1em;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.name,
+.company {
+  font-weight: 800;
+  padding-bottom: 3px;
+}
+.techAndTools {
+  /* border: 1px solid rgb(81, 53, 238); */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grey {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+  border-radius: 10px;
+  height: 15px;
+  margin-top: 10px;
+  border: 0.1px solid rgb(229, 226, 226);
+}
+
+.progress-bar {
+  background-color: rgb(94, 91, 91) !important;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 1px;
+  color: rgb(245, 240, 233);
+  font-size: 0.8em;
+  height: 14px;
+}
+
+p {
+  font-size: 1em;
+}
