@@ -14,7 +14,7 @@
 
 
 <script src="https://kit.fontawesome.com/262aad1d5c.js" crossorigin="anonymous"></script>
-
+<script src="app.js" defer></script>
   </head>
   <body>
     <div class="mainContainer">
@@ -24,15 +24,19 @@
         </div>
         <div class="rightInfo">
           <div class="personalInfo">
+            <div class="name-vol">
             <h1 class="personalInfo-style">Prajna Yogesh</h1>
+            <i id="vol" class="fa-solid fa-volume-high"></i>
+          </div>
             <h4 class="personalInfo-style">Web Developer</h4>
-            <h5 class="personalInfo-style1"><i class="fa-regular fa-envelope personalInfo-style2"></i>prajna.yogish4@gmail.com </h2>
-            <h5 class="personalInfo-style1"> <i class="fa-solid fa-mobile-screen-button personalInfo-style2"></i>1234567890</h2>
+            <h5 class="link-style" id="email-click"><i class="fa-regular fa-envelope personalInfo-style2"></i>prajna.yogish4@gmail.com </h5>
+            <h5 class="link-style" id="phone-click"> <i class="fa-solid fa-mobile-screen-button personalInfo-style2"></i>1234567890</h5>
+           <div id="toggleElement"> <i  class="fa-solid fa-toggle-on switch-mode"></i> </div>
           </div>
           <div class="links">
            <div class="linksInfo"> <i class="fa-brands fa-linkedin-in personalInfo-style2"></i><a class="link-style" target="_blank" href="https://www.linkedin.com/in/prajna-yogesh-8334945b/">https://www.linkedin.com/in/prajna-yogesh-8334945b/</a></div>
            <div class="linksInfo"> <i class="fa-brands fa-github personalInfo-style2"></i> <a class="link-style" target="_blank" href="https://github.com/PrajnaYogesh">https://github.com/PrajnaYogesh</a>    </div>
-           <div class="linksInfo"> <i class="fa-solid fa-earth-americas personalInfo-style2"></i><a class="link-style" target="_blank" href="https://prajna-yogesh.netlify.app/">https://prajna-yogesh.netlify.app/</a></div>
+           <div class="linksInfo"> <i class="fa-solid fa-earth-americas personalInfo-style2"></i><a class="link-style" onclick="newWindow()"  href="">https://prajna-yogesh.netlify.app/</a></div>
   </div>
         </div>
       </div>
@@ -57,7 +61,7 @@
     
     <section class="workAndTech">
       <div class="workExperience">
-        <h3 class="merriweather-bold">Work Experience</h2>
+        <h3 class="merriweather-bold">Work Experience <i class="fa-solid fa-angle-down workArrow"></i></h3>
                <hr>
        <div class="companies">
         <div class="tcs">
@@ -115,6 +119,18 @@ and easy delivery of application to customers.</li>
                    </ul>
                   </div>
        </div>
+
+       <div class="projects">
+        <h3 class="merriweather-bold">Projects <i class="fa-solid fa-angle-down projectArrow"></i></h3>
+        <hr>
+        <ul class="roboto-regular pros">
+          <!-- <li>Personal Portfolio: App link: <a href="https://prajna-yogesh.netlify.app">  https://prajna-yogesh.netlify.app </a></li> -->
+          <li >Social Media: App link: <a  target="_blank" href="https://client-app-vjz6b.ondigitalocean.app/#/login"> https://client-app-vjz6b.ondigitalocean.app/#/login </a></li>
+          <li>E-Commerce: App link:  <a  target="_blank"  href="https://e-commerce-client-5rway.ondigitalocean.app/"> https://e-commerce-client-5rway.ondigitalocean.app/ </a></li>
+          <li>Recipe Hub: App video link:  <a  target="_blank"  href=" https://www.youtube.com/watch?v=EPoCENH_1sc&amp;t=14s"> https://www.youtube.com/watch?v=EPoCENH_1sc&amp;t=14s </a></li>
+          </ul>
+       </div>
+
       </div>
     
       <div class="techAndTools">

@@ -4,22 +4,40 @@
   box-sizing: border-box;
 }
 
+
+
 .mainContainer {
   border: 1px solid black;
   width: 70vw;
   margin: auto;
 }
+.section1 {
+  /* border: 1px solid red; */
+  height: 25vh;
+  display: flex;
+  background-color: rgb(45, 42, 65);
+  color: rgb(245, 240, 233);
+}
+
 
 
 
 /*nav bar */
 
-.section1 {
-  /* border: 1px solid red; */
-  height: 160px;
+
+.name-vol{
   display: flex;
-  background-color: rgb(45, 42, 65);
-  color: rgb(245, 240, 233);
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+#vol:hover{
+  color:rgb(243, 185, 185);
+}
+
+.link-style:hover{
+  color:rgb(243, 185, 185);
 }
 
 .leftInfo {
@@ -84,8 +102,12 @@
 
 .link-style {
   color: rgb(245, 240, 233);
+  cursor: pointer;
 }
 
+#vol{
+  cursor: pointer;
+}
 .bodySection {
   /* border: 1px solid green; */
   margin: 10px;
@@ -97,6 +119,11 @@
   margin: 10px;
   display: flex;
  
+}
+
+
+.toggleDropdown{
+  display: none;
 }
 
 .workExperience {
@@ -149,18 +176,18 @@ li {
   border-radius: 10px;
   height: 15px;
   margin-top: 10px;
-  border: 0.1px solid rgb(229, 226, 226);
+  border: 0.01px solid rgb(229, 226, 226);
 }
 
 .progress-bar {
-  background-color: rgb(45, 42, 65) !important;
+  background-color: rgb(45, 42, 65) ;
   border-radius: 10px;
   text-align: center;
   padding: 1px;
   color: rgb(245, 240, 233);
   font-size: 0.8em;
-  height: 15px;
- 
+  height: 100%;
+ line-height: 0.8em;
 }
 #html{
   width:80%;
@@ -228,3 +255,14 @@ li {
         padding: 20px 0px;
      }
   }
+
+ 
+  .darkMode{
+    background-color: rgb(48, 53, 55);
+    color: rgb(238, 234, 234);
+    border: 1px solid white;
+  
+  }
+
+ 
+ 
