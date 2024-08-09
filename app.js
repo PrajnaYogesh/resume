@@ -13,6 +13,7 @@ const sec =  document.querySelector('.section1')
 const pbar =  document.querySelectorAll('.progress-bar')
 
 
+
 // function replaceElement() {
 //     var newElement = document.createElement('div');
 //     newElement.innerHTML = '<i class="fa-solid fa-toggle-off"></i>';
@@ -25,12 +26,12 @@ switchM.addEventListener('click',()=>{
     // replaceElement()
     mContainer.classList.toggle('darkMode');
     sec.classList.toggle('darkMode');
+
     pbar.forEach((bar)=>{
         bar.classList.toggle('darkMode');
     })
    
-   
-
+ 
    
 })
 
